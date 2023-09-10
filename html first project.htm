@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>HELLO STUDENTS</h1>
+    <br>
+    <h4>WELLCOME TO THE IBM INTINSHIP </h4>
+    </header>
+    <br>
+    <!------ibm--------------->
+    <pr>this is the best platform in intinship </pr>
+    <h6>for more information visit our website</h6>
+
+<!----ibm link-------------------->
+<a href="https://www.ibm.com/careers/in-en/early-career/internship/">click to here iBm.com</a>
+<hr>
+<!----image -------------------------------------------->
+<img src="html%20first%20project_files/ibm-internshi-768x509.jpg" alt="ibm" width="300" height="170">
+<br>
+<!--------------information------------->
+<b>fill your information</b>
+<hr>
+<!----------information-->
+<ol> <li><input type="text" placeholder="your name"> </li> 
+    <br>
+
+<li><input type="text" placeholder="username"> </li>
+<br>
+<li> <input type="text" placeholder="pasword"></li>
+<br>
+<li><input type="text" placeholder="capture"></li>
+    </ol>
+    <!------ male female------->
+    <label for="101">
+        <input type="radio" value="male" name="male" id="101"> male
+    </label>
+
+    <label for="102">
+        <input type="radio" value="female" name="female" id="102"> female
+
+    </label>
+    <br>
+
+    <b> select your city</b>
+    <br>
+    <select name="city" id="city">
+        <option value="bhopal" selected="selected"> bhopal</option>
+        <option value="indore"> indore </option>
+         jabalpur
+        <option value="vidisha"> vidisha</option>
+        <option value="sanchi"> sanchi </option>
+        <option value="sanatanpur"> sanatanpur</option>
+        <option value="xyz"> xyz</option>
+    </select>
+    <br>
+
+
+
+<hr>
+    <!---feedback-------->
+    <textarea name="feedback" id="101" aria-placeholder="pelase give your feedback here">feedback
+
+    </textarea>
+
+    <!------sujects---------->
+    <br>
+ <lable for="math">
+    <input type="checkbox" value="1 year" name="subject" id="101"> 1 year
+ </lable>
+ <br>
+<lable>
+    <input type="checkbox" value="2 year" name="subject" id="102">2 year
+</lable>
+<br>
+<lable>
+    <input type="checkbox" value="3 year" name="subject" id="103">3 year
+</lable>
+<br>
+<label><input type="checkbox" value="4 year" name="subject" id="104">4 year
+</label>
+<br>
+
+<br>
+<!-----------input type -->
+<input type="submit" value="sumit">
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
